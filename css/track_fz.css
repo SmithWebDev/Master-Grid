@@ -1,0 +1,25 @@
+/* REM = based on the font size of the root of the document */
+html{
+  font-size: 10px;
+}
+
+/* EM = based on the font size set by parent element */
+.container{
+  display: grid;
+  font-size: 20px;
+}
+
+.two-em-column-container{
+  grid-template-columns: 10em 5em 200px 100px;
+}
+.two-em-row-container{
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 5em 6em;
+}
+.two-rem-column-container{
+  grid-template-columns: 10rem 20rem;
+}
+.two-rem-row-container{
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 8rem 12rem
+}
