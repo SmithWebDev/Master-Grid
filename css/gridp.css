@@ -1,0 +1,5 @@
+/* Shorthand grid column and row declaration. Resulting in 2 rows height = 100px and 2 columns width = 200px */
+.container1{
+  display: grid;
+  grid: 100px 100px / 200px 200px;
+}
