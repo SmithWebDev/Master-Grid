@@ -29,7 +29,7 @@
   grid-template-columns: 100px 1fr;
 }
 
-.pencentage-width-fraction-column-container {
+.percentage-width-fraction-column-container {
   grid-template-columns: 20% 1fr;
 }
 
