@@ -16,7 +16,8 @@
   <!-- <link rel="stylesheet" href="css/fr_vs_auto.css"> -->
   <!-- <link rel="stylesheet" href="css/minmax.css"> -->
   <!-- <link rel="stylesheet" href="css/mmgotchas.css"> -->
-  <link rel="stylesheet" href="css/minmax-content.css">
+  <!-- <link rel="stylesheet" href="css/minmax-content.css"> -->
+  <link rel="stylesheet" href="css/fit_content.css">
 </head>
 <body>
 
@@ -525,7 +526,7 @@
     <div class="item">3</div>
     <div class="item">4</div>
   </div> -->
-  <h1>Min-Content & Max-Content</h1>
+  <!-- <h1>Min-Content & Max-Content</h1>
   <br>
   <hr>
   <br>
@@ -574,8 +575,50 @@
       a size that will allow this entire sentence to fit. .This is because we are using minmax(min-content, max-content)
     </div>
     <div class="item"></div>
+  </div> -->
+
+  <h1>Fit Content</h1>
+  <br>
+  <hr>
+  <br><br>
+  <h2>Min Content Pixel Min Max Container</h2>
+  <div class="container min-content-pixel-min-max-container">
+    <div class="item">1</div>
+    <div class="item">2</div>
   </div>
 
+  <h2>Fixed Fit Content Container</h2>
+  <div class="container fixed-fit-content-container">
+    <div class="item">
+      1
+      <!-- This content will go a max of 300 pixels -->
+      <!-- A little bit of text -->
+    </div>
+    <div class="item">2</div>
+  </div>
+
+  <h2>Percentage Fit Content Container</h2>
+  <div class="container percentage-fit-content-container">
+    <div class="item">
+      1
+      <!-- This content will go a max of 50% of the container.
+      Once it's gone that far then it will
+      collapse like this. -->
+    </div>
+    <div class="item">2</div>
+  </div>
+
+  <h2>Auto Fit Content Container</h2> <!--Fit Content does not work using auto -->
+  <div class="container auto-fit-content-container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+  </div>
+
+  <h2>Fraction Fit Content Container</h2> <!--Fit Content does not work using fractions -->
+  <div class="container fraction-fit-content-container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+  </div>
 
   h2+br+hr+br+h2{$1}+.container.$1>.item{$}*4^h2{$1}+.container.$1>.item{$}*4^h2{$1}+.container.$1>.item{$}*4
 
